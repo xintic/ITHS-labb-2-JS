@@ -1,0 +1,85 @@
+/* Universal Styles */
+main {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border-radius: 0;
+}
+/* Navbar Styles */
+.navbar {
+  height: 4.625rem;
+}
+#themeIcon {
+  color: white;
+}
+#login-button p {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+/* Login Styles */
+.modal-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-backdrop {
+  z-index: auto;
+}
+.btn-close {
+  position: absolute;
+  right: 0;
+  padding: 1em;
+}
+h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.login-form {
+  padding: 2em;
+  max-width: 100%;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+.form-control:focus {
+  box-shadow: inset 0 -1px 0 #7e7e7e;
+}
+.form-control {
+  padding-left: 0;
+  border-radius: 0;
+}
+.login-form .btn {
+  width: 100%;
+  font-weight: 800;
+  border-radius: 0;
+  padding: 0.5em 0;
+}
+.login-form p {
+  text-align: center;
+  padding-top: 2em;
+}
+.login-form a {
+  text-decoration: none;
+}
+/* Main Section */
+#registration {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    height: auto;
+  }
+  #registration {
+    width: 100%;
+  }
+  .login-form {
+    margin: 0 auto;
+  }
+}

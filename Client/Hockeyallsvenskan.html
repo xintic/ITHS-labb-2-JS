@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="En enklare sida för dig som vill ha statistik från Hockeyallsvenskan"
+    />
+    <link rel="icon" href="/Client/Resources/Images/Hockeyallsvenskan/HA.svg" />
+    <title>Hockeyallsvenskan</title>
+    <!-- Bootstrap CSS -->
+    <link href="/Client/Resources/CSS/main.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Custom CSS -->
+    <link href="/Client/Resources/CSS/styles.css" rel="stylesheet" />
+    <!-- Chart.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <!-- Header & Nav -->
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+            <img
+              src="/Client/Resources/Images/Hockeyallsvenskan/HA.svg"
+              alt="logo"
+            />
+          </a>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input p-2 me-3"
+              id="flexSwitchCheckChecked"
+              type="checkbox"
+              role="switch"
+              onclick="toggleMode()"
+            />
+            <i id="themeIcon" class="bi"></i>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="shl.html">SHL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Hem</a>
+              </li>
+              <li
+                id="login-button"
+                class="nav-item"
+                data-bs-toggle="modal"
+                data-bs-target="#ModalForm"
+              >
+                <p class="nav-link text-white">Logga in</p>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="modal fade"
+            id="ModalForm"
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="login-form">
+                    <h1 class="text-center">Logga in</h1>
+                    <form id="login-form">
+                      <div class="mb-3 mt-4">
+                        <label for="user-email" class="form-label"
+                          >E-mail</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="user-email"
+                          autocomplete="email"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="user-password" class="form-label"
+                          >Lösenord</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="user-password"
+                          autocomplete="current-password"
+                        />
+                      </div>
+                      <button
+                        id="login-form-button"
+                        type="submit"
+                        class="btn btn-secondary mt-3"
+                      >
+                        LOGGA IN
+                      </button>
+                      <p>
+                        Inte medlem än?
+                        <a href="registration.html">Registrera dig nu!</a>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- News Carousel (Bootstrap Component) -->
+      <div
+        id="newsCarousel"
+        class="carousel slide mb-6"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#newsCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#newsCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#newsCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h2 class="text-white h1">Snart skapar vi nya minnen</h2>
+                <p class="text-white">
+                  Här är alla datum för slutspel och kvalspel 2025!
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Läs mer</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption">
+                <h2 class="text-white h1">Spelschemat</h2>
+                <p class="text-white">Alla matcher säsongen 2024-2025</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Läs mer</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2 class="text-white h1">Fantasy Hockey</h2>
+                <p class="text-white">
+                  Bygg ihop ditt eget lag och tävla mot andra!
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Läs mer</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#newsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#newsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Standings and games -->
+      <div id="main-section" class="container">
+        <div class="row">
+          <!-- Standings -->
+          <div id="standings" class="col-lg-8">
+            <table id="table-standings" class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th scope="col" onclick="sortTable(0)">#</th>
+                  <th scope="col" onclick="sortTable(1)">LAG</th>
+                  <th scope="col" onclick="sortTable(2)" class="center">GP</th>
+                  <th scope="col" onclick="sortTable(3)" class="center">W</th>
+                  <th scope="col" onclick="sortTable(4)" class="center">L</th>
+                  <th scope="col" onclick="sortTable(5)" class="center">GF</th>
+                  <th scope="col" onclick="sortTable(6)" class="center">GA</th>
+                  <th scope="col" onclick="sortTable(7)" class="center">GD</th>
+                  <th scope="col" onclick="sortTable(8)" class="center">PTS</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div id="games" class="col-lg-4"></div>
+        </div>
+      </div>
+      <div id="news" class="container">
+        <div id="news-title">
+          <h2>Nyheter</h2>
+        </div>
+        <div id="news-container">
+          <div class="card">
+            <svg
+              class="bd-placeholder-img card-img-top"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="card-body">
+              <a href="#">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  sed lacus semper, vulputate diam eu.
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <svg
+              class="bd-placeholder-img card-img-top"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="card-body">
+              <a href="#">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  sed lacus semper, vulputate diam eu.
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <svg
+              class="bd-placeholder-img card-img-top"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="card-body">
+              <a href="#">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  sed lacus semper, vulputate diam eu.
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <svg
+              class="bd-placeholder-img card-img-top"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              />
+            </svg>
+            <div class="card-body">
+              <a href="#">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  sed lacus semper, vulputate diam eu.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Player rankings -->
+      <div id="leaders-table" class="container mt-4">
+        <div class="row">
+          <div id="leaders-title" class="container">
+            <h2>Spelarstatistik</h2>
+          </div>
+          <!-- Total Points -->
+          <div id="points-table" class="col-lg-4">
+            <table id="table-points" class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Spelare</th>
+                  <th scope="col" class="left">Lag</th>
+                  <th scope="col" class="right">Poäng</th>
+                </tr>
+              </thead>
+              <tbody id="pointsBody"></tbody>
+            </table>
+            <div id="points" class="d-grid my-2">
+              <button
+                id="points-show-more"
+                type="button"
+                class="btn btn-outline-secondary fw-bolder"
+              >
+                Visa mer <i class="bi bi-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <!-- Top Scorer -->
+          <div id="goals-table" class="col-lg-4">
+            <table id="table-goals" class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Spelare</th>
+                  <th scope="col" class="left">Lag</th>
+                  <th scope="col" class="right">Mål</th>
+                </tr>
+              </thead>
+              <tbody id="goalsBody"></tbody>
+            </table>
+            <div id="goals" class="d-grid my-2">
+              <button
+                id="goals-show-more"
+                type="button"
+                class="btn btn-outline-secondary fw-bolder"
+              >
+                Visa mer <i class="bi bi-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <!-- Top Assists -->
+          <div id="assists-table" class="col-lg-4">
+            <table id="table-assist" class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Spelare</th>
+                  <th scope="col" class="left">Lag</th>
+                  <th scope="col" class="right">Assist</th>
+                </tr>
+              </thead>
+              <tbody id="assistsBody"></tbody>
+            </table>
+            <div id="assists" class="d-grid my-2">
+              <button
+                id="assists-show-more"
+                type="button"
+                class="btn btn-outline-secondary fw-bolder"
+              >
+                Visa mer <i class="bi bi-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <div class="d-grid mb-2">
+            <button
+              id="desktop-show-more"
+              type="button"
+              class="btn btn-outline-secondary fw-bolder"
+            >
+              Visa mer <i class="bi bi-chevron-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="countries" class="container">
+        <div class="row">
+          <div id="chart-title" class="container">
+            <h2>Spelardemografi</h2>
+          </div>
+          <div id="charts">
+            <canvas id="playerCountries" width="300" height="400"></canvas>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+              <i class="bi bi-code-slash"></i>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >&copy; 2024 Xintic</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/Client/Resources/Script/hockeyallsvenskan.js"></script>
+  </body>
+</html>
+
+<!-- HTML Validated 14/11/2024 -->

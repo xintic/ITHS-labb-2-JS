@@ -1,0 +1,244 @@
+/* Universal Styles */
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.btn {
+  border-radius: 0;
+}
+/* Navbar Styles */
+.navbar img {
+  width: 3rem;
+  height: 3rem;
+}
+#themeIcon {
+  color: white;
+}
+#login-button p {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+/* Login Styles */
+.modal-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-backdrop {
+  z-index: auto;
+}
+.btn-close {
+  position: absolute;
+  right: 0;
+  padding: 1em;
+}
+h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.login-form {
+  padding: 2em;
+  max-width: 100%;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+.form-control:focus {
+  box-shadow: inset 0 -1px 0 #7e7e7e;
+}
+.form-control {
+  padding-left: 0;
+  border-radius: 0;
+}
+.login-form .btn {
+  width: 100%;
+  font-weight: 800;
+  border-radius: 0;
+  padding: 0.5em 0;
+}
+.login-form p {
+  text-align: center;
+  padding-top: 2em;
+}
+.login-form a {
+  text-decoration: none;
+}
+/* Carousel Styles */
+#newsCarousel {
+  margin-top: 3.705rem;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+}
+/* Main Content Styles */
+#main-section {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+}
+#table-standings th:hover {
+  cursor: pointer;
+}
+.team-logo {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.team-name {
+  display: inline;
+}
+.team-abbreviation {
+  display: none;
+}
+/* Stats Styles */
+#leaders-table {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+}
+#points-show-more,
+#goals-show-more,
+#assists-show-more {
+  display: none;
+}
+#desktop-show-more {
+  display: block;
+}
+/* News Styles */
+#news {
+  width: 70%;
+}
+#news-container {
+  display: flex;
+  justify-content: space-between;
+}
+#news-container .card {
+  width: 18rem;
+}
+/* Games Styles */
+#games {
+  padding-top: 0.5rem;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.match {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.competitor-info {
+  display: flex;
+  align-items: center;
+}
+.competitor-logo {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5px;
+}
+.competitor-socre {
+  display: flex;
+}
+.winner {
+  font-weight: 700;
+}
+.upcoming {
+  color: #888;
+}
+/* Chart Styles */
+#countries {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+#countries h3 {
+  text-align: center;
+}
+#charts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Media Queries */
+@media (max-width: 992px) {
+  .navbar img {
+    width: 2rem;
+    height: 2rem;
+  }
+  #main-section {
+    width: 95%;
+    margin: 4rem auto 2rem auto;
+  }
+  .competitor-logo {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 5px;
+  }
+  .team-logo {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.2rem;
+  }
+  #leaders-table {
+    width: 95%;
+  }
+  #points-show-more,
+  #goals-show-more,
+  #assists-show-more {
+    display: block;
+  }
+  #desktop-show-more {
+    display: none;
+  }
+  #countries {
+    width: 95%;
+  }
+  #news {
+    width: 95%;
+  }
+  #news-container {
+    flex-wrap: wrap;
+  }
+  #news-container .card {
+    width: 21.25rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .team-name {
+    display: none;
+  }
+  .team-abbreviation {
+    display: inline;
+  }
+  #news-container .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .login-form {
+    margin: 0 auto;
+  }
+}

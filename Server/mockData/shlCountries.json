@@ -1,0 +1,18 @@
+{
+  "countries": [
+    { "nation": "Sverige", "players": 265 },
+    { "nation": "Finland", "players": 33 },
+    { "nation": "Kanada", "players": 21 },
+    { "nation": "USA", "players": 17 },
+    { "nation": "Danmark", "players": 8 },
+    { "nation": "Tjeckien", "players": 7 },
+    { "nation": "Norge", "players": 6 },
+    { "nation": "Schweiz", "players": 3 },
+    { "nation": "Slovakien", "players": 3 },
+    { "nation": "Lettland", "players": 2 },
+    { "nation": "Litauen", "players": 1 },
+    { "nation": "Italien", "players": 1 },
+    { "nation": "Tyskland", "players": 1 },
+    { "nation": "Österrike", "players": 1 }
+  ]
+}
