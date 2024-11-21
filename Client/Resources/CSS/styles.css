@@ -102,6 +102,10 @@ h1 {
 .team-abbreviation {
   display: none;
 }
+/* News Styles */
+#news-container a {
+  text-decoration: none;
+}
 /* Stats Styles */
 #leaders-table {
   width: 70%;

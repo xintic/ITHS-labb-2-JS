@@ -47,8 +47,7 @@ document
         document.getElementById("login-form-button").innerText = "Inloggad!";
         window.location.reload();
       } else {
-        document.getElementById("login-form-button").innerText =
-          "Fel vid inloggning";
+        document.getElementById("error-msg").innerText = "Fel vid inloggning";
       }
     } catch (error) {
       console.error("Error:", error);

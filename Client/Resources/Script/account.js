@@ -47,8 +47,7 @@ document
         document.getElementById("login-form-button").innerText = "Inloggad!";
         window.location.reload();
       } else {
-        document.getElementById("login-form-button").innerText =
-          "Fel vid inloggning";
+        document.getElementById("error-msg").innerText = "Fel vid inloggning";
       }
     } catch (error) {
       console.error("Error:", error);
@@ -86,46 +85,49 @@ const updateFeedbackMessage = document.querySelector(
   "#ModalUpdateMsg .modal-body p"
 );
 
-document.getElementById("update-form").addEventListener("submit", async (e) => {
-  e.preventDefault();
+document
+  .getElementById("update-form")
+  .addEventListener("submit", async (event) => {
+    event.preventDefault();
 
-  const currentPassword = document.getElementById("current-password").value;
-  const newUsername = document.getElementById("new-username").value;
-  const newPassword = document.getElementById("new-password").value;
+    const currentPassword = document.getElementById("current-password").value;
+    const newUsername = document.getElementById("new-username").value;
+    const newPassword = document.getElementById("new-password").value;
 
-  try {
-    const response = await fetch(`${API_URL}/update-user`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
-      },
-      body: JSON.stringify({ currentPassword, newUsername, newPassword }),
-    });
+    try {
+      const response = await fetch(`${API_URL}/update-user`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+        },
+        body: JSON.stringify({ currentPassword, newUsername, newPassword }),
+      });
 
-    const data = await response.json();
-    if (response.ok) {
-      updateFeedbackButton.classList.remove("btn-danger");
-      updateFeedbackButton.classList.add("btn-success");
-      updateFeedbackMessage.innerText = "Användare uppdaterad!";
-    } else {
+      const data = await response.json();
+      if (response.ok) {
+        updateFeedbackButton.classList.remove("btn-danger");
+        updateFeedbackButton.classList.add("btn-success");
+        updateFeedbackMessage.innerText = "Användare uppdaterad!";
+      } else {
+        updateFeedbackButton.classList.remove("btn-success");
+        updateFeedbackButton.classList.add("btn-danger");
+        updateFeedbackMessage.innerText =
+          data.message || "Misslyckades med att uppdatera användare";
+      }
+    } catch (error) {
+      console.error("Error:", error);
       updateFeedbackButton.classList.remove("btn-success");
       updateFeedbackButton.classList.add("btn-danger");
-      updateFeedbackMessage.innerText =
-        data.message || "Misslyckades med att uppdatera användare";
+      updateFeedbackMessage.innerText = "Något gick fel vid uppdatering";
     }
-  } catch (error) {
-    console.error("Error:", error);
-    updateFeedbackButton.classList.remove("btn-success");
-    updateFeedbackButton.classList.add("btn-danger");
-    updateFeedbackMessage.innerText = "Något gick fel vid uppdatering";
-  }
-});
+  });
 
 // Användarfeedback och DELETE-funktion till proxy.js
 document
   .getElementById("delete-account")
-  .addEventListener("click", async () => {
+  .addEventListener("click", async (event) => {
+    event.preventDefault();
     try {
       const token = localStorage.getItem("accessToken");
 

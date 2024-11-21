@@ -47,8 +47,7 @@ document
         document.getElementById("login-form-button").innerText = "Inloggad!";
         window.location.reload();
       } else {
-        document.getElementById("login-form-button").innerText =
-          "Fel vid inloggning";
+        document.getElementById("error-msg").innerText = "Fel vid inloggning";
       }
     } catch (error) {
       console.error("Error:", error);
@@ -69,9 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
 // Fetchar API via proxy.js
 
 // Visar tabellen, team.competitor.name används i desktop och team.competitor.abbreviation i mobil
-fetch(`${API_URL}/api/standings/ha`)
-  .then((response) => response.json())
-  .then((data) => {
+(async () => {
+  try {
+    const response = await fetch(`${API_URL}/api/standings/ha`);
+    const data = await response.json();
+
     const tableBody = document
       .getElementById("table-standings")
       .getElementsByTagName("tbody")[0];
@@ -141,8 +142,10 @@ fetch(`${API_URL}/api/standings/ha`)
 
       tableBody.appendChild(standingsRow);
     });
-  })
-  .catch((error) => console.error("Error:", error));
+  } catch (error) {
+    console.error("Error:", error);
+  }
+})();
 
 // Funktion för sorterting av kolumner i tabellen
 const sortDirections = {};
@@ -175,9 +178,11 @@ function sortTable(columnIndex) {
 let roundsArray = [];
 let currentRoundIndex = 0;
 
-fetch(`${API_URL}/api/summaries/ha`)
-  .then((response) => response.json())
-  .then((data) => {
+const fetchAndProcessRounds = async () => {
+  try {
+    const response = await fetch(`${API_URL}/api/summaries/ha`);
+    const data = await response.json();
+
     data.summaries.forEach((event) => {
       const roundNumber = event.sport_event.sport_event_context.round.number;
       let round = roundsArray.find((r) => r.round === roundNumber);
@@ -189,8 +194,10 @@ fetch(`${API_URL}/api/summaries/ha`)
     });
     roundsArray.sort((a, b) => a.round - b.round);
     renderRound(currentRoundIndex);
-  })
-  .catch((error) => console.error("Error:", error));
+  } catch (error) {
+    console.error("Error", error);
+  }
+};
 
 // Itererar genom arrayerna som skapades innan
 const renderRound = (roundIndex) => {
@@ -204,7 +211,7 @@ const renderRound = (roundIndex) => {
   headerContainer.className = "header-container";
 
   const prevButton = document.createElement("button");
-  prevButton.innerHTML = '<i class="bi bi-arrow-left"></i>';
+  prevButton.innerHTML = '<i class="bi bi-chevron-double-left"></i>';
   prevButton.classList.add("btn", "btn-secondary", "nav-button");
   prevButton.onclick = prevRound;
   prevButton.disabled = roundIndex === 0;
@@ -214,7 +221,7 @@ const renderRound = (roundIndex) => {
   roundHeader.textContent = `Omgång ${round.round}`;
 
   const nextButton = document.createElement("button");
-  nextButton.innerHTML = '<i class="bi bi-arrow-right"></i>';
+  nextButton.innerHTML = '<i class="bi bi-chevron-double-right"></i>';
   nextButton.onclick = nextRound;
   nextButton.disabled = roundIndex === roundsArray.length - 1;
   nextButton.classList.add("btn", "btn-secondary", "nav-button");
@@ -315,6 +322,8 @@ const renderRound = (roundIndex) => {
   });
 };
 
+fetchAndProcessRounds();
+
 // Funktioner för att växla mellan omgångar som används i renderRound
 const nextRound = () => {
   if (currentRoundIndex < roundsArray.length - 1) {
@@ -389,33 +398,42 @@ const renderLeaders = (listType, data, rowLimit) => {
 };
 
 // Funktion för att hämta in fler rader
-const showMoreRows = (listType, button) => {
+const showMoreRows = async (listType, button) => {
   if (rowCounters[listType] < maxRows) {
     rowCounters[listType] = Math.min(rowCounters[listType] + 10, maxRows);
 
-    fetch(`${API_URL}/api/leaders/ha`)
-      .then((response) => response.json())
-      .then((data) => {
-        renderLeaders(listType, data, rowCounters[listType]);
+    try {
+      const response = await fetch(`${API_URL}/api/leaders/ha`);
+      const data = await response.json();
 
-        if (rowCounters[listType] >= maxRows) {
-          button.textContent = "Inget mer att visa";
-          button.disabled = true;
-        }
-      })
-      .catch((error) => console.error("Error:", error));
+      renderLeaders(listType, data, rowCounters[listType]);
+
+      if (rowCounters[listType] >= maxRows) {
+        button.textContent = "Inget mer att visa";
+        button.disabled = true;
+      }
+    } catch (error) {
+      console.error("Error fetching more rows:", error);
+    }
   }
 };
 
-// Visar initiella 10 rader vid sidladdning
-fetch(`${API_URL}/api/leaders/ha`)
-  .then((response) => response.json())
-  .then((data) => {
+// Funktion för att ladda initiala data vid sidladdning
+const loadInitialLeaders = async () => {
+  try {
+    const response = await fetch(`${API_URL}/api/leaders/ha`);
+    const data = await response.json();
+
     renderLeaders("points", data, rowCounters.points);
     renderLeaders("goals", data, rowCounters.goals);
     renderLeaders("assists", data, rowCounters.assists);
-  })
-  .catch((error) => console.error("Error:", error));
+  } catch (error) {
+    console.error("Error loading initial leaders:", error);
+  }
+};
+
+// Kör initiella laddningen av data
+loadInitialLeaders();
 
 // Knapp för desktop läge som hämtar alla 3 Leader tabeller
 document.getElementById("desktop-show-more").addEventListener("click", () => {
@@ -437,9 +455,11 @@ document.getElementById("assists-show-more").addEventListener("click", () => {
 });
 
 // Chart.JS
-fetch(`${API_URL}/api/countries/ha`)
-  .then((response) => response.json())
-  .then((data) => {
+const renderPlayerCountriesChart = async () => {
+  try {
+    const response = await fetch(`${API_URL}/api/countries/ha`);
+    const data = await response.json();
+
     const labels = data.countries.map((country) => country.nation);
     const playersData = data.countries.map((country) => country.players);
 
@@ -489,5 +509,10 @@ fetch(`${API_URL}/api/countries/ha`)
         maintainAspectRatio: false,
       },
     });
-  })
-  .catch((error) => console.error("Error:", error));
+  } catch (error) {
+    console.error("Error fetching player countries data:", error);
+  }
+};
+
+// Kör funktionen för att rendera grafen
+renderPlayerCountriesChart();
