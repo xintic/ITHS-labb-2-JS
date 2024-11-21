@@ -1,5 +1,5 @@
 {
-  "generated_at": "2024-11-05T19:38:24+00:00",
+  "generated_at": "2024-11-21T14:10:30+00:00",
   "lists": [
     {
       "type": "goals",
@@ -18,7 +18,7 @@
                   "datapoints": [
                     {
                       "type": "goals",
-                      "value": 11
+                      "value": 14
                     }
                   ]
                 }
@@ -40,7 +40,7 @@
                   "datapoints": [
                     {
                       "type": "goals",
-                      "value": 10
+                      "value": 13
                     }
                   ]
                 }
@@ -52,6 +52,62 @@
           "rank": 3,
           "players": [
             {
+              "id": "sr:player:29856",
+              "name": "Axelsson, Dick",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 10
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "players": [
+            {
+              "id": "sr:player:89348",
+              "name": "Persson, Johan",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:203578",
+              "name": "Possler, Gustav",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "sr:player:600940",
               "name": "Ottosson, Axel",
               "competitors": [
@@ -62,7 +118,24 @@
                   "datapoints": [
                     {
                       "type": "goals",
-                      "value": 8
+                      "value": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1887864",
+              "name": "Levin, Eddie",
+              "competitors": [
+                {
+                  "id": "sr:competitor:49572",
+                  "name": "Vimmerby HC",
+                  "abbreviation": "VIM",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 9
                     }
                   ]
                 }
@@ -76,6 +149,96 @@
                   "id": "sr:competitor:3735",
                   "name": "Södertälje SK",
                   "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2624817",
+              "name": "Pistek, Theodor",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "players": [
+            {
+              "id": "sr:player:1212998",
+              "name": "Stevens, Nolan",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1572526",
+              "name": "Edvardsen, Simen Andre",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1653379",
+              "name": "Harlestam, Hampus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2105358",
+              "name": "Dower Nilsson, Liam",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -101,20 +264,37 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "sr:player:2862147",
+              "name": "Souch, Carter",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "rank": 6,
+          "rank": 16,
           "players": [
             {
-              "id": "sr:player:89348",
-              "name": "Persson, Johan",
+              "id": "sr:player:379812",
+              "name": "Pitkanen, Miikka",
               "competitors": [
                 {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -125,13 +305,30 @@
               ]
             },
             {
-              "id": "sr:player:203578",
-              "name": "Possler, Gustav",
+              "id": "sr:player:981439",
+              "name": "Nord, Oscar",
               "competitors": [
                 {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:986429",
+              "name": "Meyer, Nikolai",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -176,6 +373,23 @@
               ]
             },
             {
+              "id": "sr:player:1213492",
+              "name": "Pooley, Scott",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "sr:player:1215080",
               "name": "Liljegren, Viktor",
               "competitors": [
@@ -193,13 +407,13 @@
               ]
             },
             {
-              "id": "sr:player:1887864",
-              "name": "Levin, Eddie",
+              "id": "sr:player:1383651",
+              "name": "Jakobsson, Carl",
               "competitors": [
                 {
-                  "id": "sr:competitor:49572",
-                  "name": "Vimmerby HC",
-                  "abbreviation": "VIM",
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -210,13 +424,13 @@
               ]
             },
             {
-              "id": "sr:player:2624817",
-              "name": "Pistek, Theodor",
+              "id": "sr:player:1492118",
+              "name": "Westlund, Gustaf",
               "competitors": [
                 {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -227,13 +441,47 @@
               ]
             },
             {
-              "id": "sr:player:2862147",
-              "name": "Souch, Carter",
+              "id": "sr:player:1497857",
+              "name": "Walker, Nolan",
               "competitors": [
                 {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1953060",
+              "name": "Magnusson, Oskar",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2861783",
+              "name": "Larsson, Hampus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -246,7 +494,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 28,
           "players": [
             {
               "id": "sr:player:46698",
@@ -256,6 +504,74 @@
                   "id": "sr:competitor:3733",
                   "name": "Djurgårdens IF",
                   "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:132250",
+              "name": "Nilsson, Marcus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:145644",
+              "name": "Komarek, Konstantin",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:263669",
+              "name": "Larsson, Henrik",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1004633",
+              "name": "Burgess, Todd",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -283,13 +599,13 @@
               ]
             },
             {
-              "id": "sr:player:1492118",
-              "name": "Westlund, Gustaf",
+              "id": "sr:player:1216008",
+              "name": "Hayhurst, Jacob",
               "competitors": [
                 {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -317,23 +633,6 @@
               ]
             },
             {
-              "id": "sr:player:1497857",
-              "name": "Walker, Nolan",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "sr:player:1590380",
               "name": "Fonteyne, Matt",
               "competitors": [
@@ -351,13 +650,13 @@
               ]
             },
             {
-              "id": "sr:player:1653379",
-              "name": "Harlestam, Hampus",
+              "id": "sr:player:1967337",
+              "name": "Nybeck, Zion",
               "competitors": [
                 {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -368,13 +667,13 @@
               ]
             },
             {
-              "id": "sr:player:1953060",
-              "name": "Magnusson, Oskar",
+              "id": "sr:player:2037807",
+              "name": "Ilestedt, Fabian",
               "competitors": [
                 {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -417,20 +716,37 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "sr:player:2870431",
+              "name": "Parna, Martin",
+              "competitors": [
+                {
+                  "id": "sr:competitor:49572",
+                  "name": "Vimmerby HC",
+                  "abbreviation": "VIM",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 6
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "rank": 24,
+          "rank": 42,
           "players": [
             {
-              "id": "sr:player:29856",
-              "name": "Axelsson, Dick",
+              "id": "sr:player:42558",
+              "name": "Burström, Niclas",
               "competitors": [
                 {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -441,25 +757,8 @@
               ]
             },
             {
-              "id": "sr:player:145644",
-              "name": "Komarek, Konstantin",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:379812",
-              "name": "Pitkanen, Miikka",
+              "id": "sr:player:102523",
+              "name": "Dyk, Sebastian",
               "competitors": [
                 {
                   "id": "sr:competitor:3735",
@@ -475,13 +774,115 @@
               ]
             },
             {
-              "id": "sr:player:1004633",
-              "name": "Burgess, Todd",
+              "id": "sr:player:211070",
+              "name": "Molin, Emil",
               "competitors": [
                 {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
+                  "id": "sr:competitor:3819",
+                  "name": "Östersunds IK",
+                  "abbreviation": "ÖIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:602012",
+              "name": "Karlstrom, Marcus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:5612",
+                  "name": "Almtuna IS",
+                  "abbreviation": "ALM",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:894914",
+              "name": "Zetterberg, Lukas",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:894966",
+              "name": "Norbe, Daniel",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:983619",
+              "name": "Fortier, Maxime",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1064132",
+              "name": "Jansson, Christoffer",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1121865",
+              "name": "Sjögren, Malte",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -499,57 +900,6 @@
                   "id": "sr:competitor:3762",
                   "name": "IK Oskarshamn",
                   "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1212998",
-              "name": "Stevens, Nolan",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1213492",
-              "name": "Pooley, Scott",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1216008",
-              "name": "Hayhurst, Jacob",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -577,13 +927,47 @@
               ]
             },
             {
-              "id": "sr:player:1383651",
-              "name": "Jakobsson, Carl",
+              "id": "sr:player:1595474",
+              "name": "Joyaux, Michael",
               "competitors": [
                 {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1884632",
+              "name": "Eriksson, Melker",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3804",
+                  "name": "Tingsryds AIF",
+                  "abbreviation": "TIN",
+                  "datapoints": [
+                    {
+                      "type": "goals",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1884794",
+              "name": "Olsson, Felix",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3754",
+                  "name": "Nybro Vikings IF",
+                  "abbreviation": "NYB",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -611,13 +995,13 @@
               ]
             },
             {
-              "id": "sr:player:2003163",
-              "name": "Tellstrom, Oscar",
+              "id": "sr:player:2001215",
+              "name": "Gradin, Anton",
               "competitors": [
                 {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
                   "datapoints": [
                     {
                       "type": "goals",
@@ -628,8 +1012,8 @@
               ]
             },
             {
-              "id": "sr:player:2105358",
-              "name": "Dower Nilsson, Liam",
+              "id": "sr:player:2003163",
+              "name": "Tellstrom, Oscar",
               "competitors": [
                 {
                   "id": "sr:competitor:3747",
@@ -662,64 +1046,8 @@
               ]
             },
             {
-              "id": "sr:player:2861783",
-              "name": "Larsson, Hampus",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 39,
-          "players": [
-            {
-              "id": "sr:player:132250",
-              "name": "Nilsson, Marcus",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:263669",
-              "name": "Larsson, Henrik",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:602012",
-              "name": "Karlstrom, Marcus",
+              "id": "sr:player:2458619",
+              "name": "Kandergard, Oliver",
               "competitors": [
                 {
                   "id": "sr:competitor:5612",
@@ -728,245 +1056,7 @@
                   "datapoints": [
                     {
                       "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:894914",
-              "name": "Zetterberg, Lukas",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:894966",
-              "name": "Norbe, Daniel",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:905364",
-              "name": "Olhaver, Gustav",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:983619",
-              "name": "Fortier, Maxime",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:986429",
-              "name": "Meyer, Nikolai",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:993615",
-              "name": "Vayrynen, Teemu",
-              "competitors": [
-                {
-                  "id": "sr:competitor:419635",
-                  "name": "Kalmar HC",
-                  "abbreviation": "KAL",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1064132",
-              "name": "Jansson, Christoffer",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1121865",
-              "name": "Sjögren, Malte",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1322492",
-              "name": "Lilja, David",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1572526",
-              "name": "Edvardsen, Simen Andre",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1595554",
-              "name": "Barklund, Alfred",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1653191",
-              "name": "Struthers, Matthew",
-              "competitors": [
-                {
-                  "id": "sr:competitor:419635",
-                  "name": "Kalmar HC",
-                  "abbreviation": "KAL",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1967337",
-              "name": "Nybeck, Zion",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2037807",
-              "name": "Ilestedt, Fabian",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
+                      "value": 5
                     }
                   ]
                 }
@@ -983,24 +1073,7 @@
                   "datapoints": [
                     {
                       "type": "goals",
-                      "value": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2694200",
-              "name": "Linden, Ture",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "goals",
-                      "value": 4
+                      "value": 5
                     }
                   ]
                 }
@@ -1027,7 +1100,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 23
+                      "value": 26
                     }
                   ]
                 }
@@ -1049,7 +1122,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 20
+                      "value": 25
                     }
                   ]
                 }
@@ -1059,28 +1132,6 @@
         },
         {
           "rank": 3,
-          "players": [
-            {
-              "id": "sr:player:993615",
-              "name": "Vayrynen, Teemu",
-              "competitors": [
-                {
-                  "id": "sr:competitor:419635",
-                  "name": "Kalmar HC",
-                  "abbreviation": "KAL",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 18
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 4,
           "players": [
             {
               "id": "sr:player:102523",
@@ -1093,170 +1144,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 17
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2317517",
-              "name": "Olsen, Eskild Bakke",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 17
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 6,
-          "players": [
-            {
-              "id": "sr:player:132250",
-              "name": "Nilsson, Marcus",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 16
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:263669",
-              "name": "Larsson, Henrik",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 16
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1215080",
-              "name": "Liljegren, Viktor",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 16
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1967337",
-              "name": "Nybeck, Zion",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 16
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2862147",
-              "name": "Souch, Carter",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 16
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 11,
-          "players": [
-            {
-              "id": "sr:player:132743",
-              "name": "Bengtsson, Rasmus",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 15
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:203578",
-              "name": "Possler, Gustav",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 15
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1043451",
-              "name": "Åkerström, Simon",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 15
+                      "value": 22
                     }
                   ]
                 }
@@ -1273,7 +1161,158 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 15
+                      "value": 22
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "players": [
+            {
+              "id": "sr:player:132250",
+              "name": "Nilsson, Marcus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 21
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:263669",
+              "name": "Larsson, Henrik",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 21
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1967337",
+              "name": "Nybeck, Zion",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 21
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2317517",
+              "name": "Olsen, Eskild Bakke",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 21
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "players": [
+            {
+              "id": "sr:player:203578",
+              "name": "Possler, Gustav",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:986429",
+              "name": "Meyer, Nikolai",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2862147",
+              "name": "Souch, Carter",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 20
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "players": [
+            {
+              "id": "sr:player:993615",
+              "name": "Vayrynen, Teemu",
+              "competitors": [
+                {
+                  "id": "sr:competitor:419635",
+                  "name": "Kalmar HC",
+                  "abbreviation": "KAL",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 19
                     }
                   ]
                 }
@@ -1290,7 +1329,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 15
+                      "value": 19
                     }
                   ]
                 }
@@ -1299,20 +1338,59 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 14,
           "players": [
             {
-              "id": "sr:player:600940",
-              "name": "Ottosson, Axel",
+              "id": "sr:player:1215080",
+              "name": "Liljegren, Viktor",
               "competitors": [
                 {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 14
+                      "value": 18
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 15,
+          "players": [
+            {
+              "id": "sr:player:132743",
+              "name": "Bengtsson, Rasmus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 17
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1064132",
+              "name": "Jansson, Christoffer",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 17
                     }
                   ]
                 }
@@ -1329,7 +1407,97 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 14
+                      "value": 17
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2105358",
+              "name": "Dower Nilsson, Liam",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 17
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 19,
+          "players": [
+            {
+              "id": "sr:player:600940",
+              "name": "Ottosson, Axel",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:983755",
+              "name": "Sissons, Colby",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1043451",
+              "name": "Åkerström, Simon",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1297344",
+              "name": "Olofsson, Jacob",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 16
                     }
                   ]
                 }
@@ -1346,7 +1514,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 14
+                      "value": 16
                     }
                   ]
                 }
@@ -1363,6 +1531,220 @@
                   "datapoints": [
                     {
                       "type": "points",
+                      "value": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 25,
+          "players": [
+            {
+              "id": "sr:player:379812",
+              "name": "Pitkanen, Miikka",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:894966",
+              "name": "Norbe, Daniel",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:983619",
+              "name": "Fortier, Maxime",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1124141",
+              "name": "Martin, Max",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1213492",
+              "name": "Pooley, Scott",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1279040",
+              "name": "Maione, Mathew",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2348251",
+              "name": "Polin, Egor",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2757157",
+              "name": "Eklund, Victor",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 33,
+          "players": [
+            {
+              "id": "sr:player:89277",
+              "name": "Karlsson, Jakob",
+              "competitors": [
+                {
+                  "id": "sr:competitor:49572",
+                  "name": "Vimmerby HC",
+                  "abbreviation": "VIM",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:602012",
+              "name": "Karlstrom, Marcus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:5612",
+                  "name": "Almtuna IS",
+                  "abbreviation": "ALM",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1492118",
+              "name": "Westlund, Gustaf",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1887864",
+              "name": "Levin, Eddie",
+              "competitors": [
+                {
+                  "id": "sr:competitor:49572",
+                  "name": "Vimmerby HC",
+                  "abbreviation": "VIM",
+                  "datapoints": [
+                    {
+                      "type": "points",
                       "value": 14
                     }
                   ]
@@ -1372,8 +1754,42 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 37,
           "players": [
+            {
+              "id": "sr:player:29856",
+              "name": "Axelsson, Dick",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:31893",
+              "name": "Thoresen, Patrick",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "id": "sr:player:46698",
               "name": "Krüger, Marcus",
@@ -1392,13 +1808,13 @@
               ]
             },
             {
-              "id": "sr:player:602012",
-              "name": "Karlstrom, Marcus",
+              "id": "sr:player:89348",
+              "name": "Persson, Johan",
               "competitors": [
                 {
-                  "id": "sr:competitor:5612",
-                  "name": "Almtuna IS",
-                  "abbreviation": "ALM",
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
                   "datapoints": [
                     {
                       "type": "points",
@@ -1408,62 +1824,6 @@
                 }
               ]
             },
-            {
-              "id": "sr:player:986429",
-              "name": "Meyer, Nikolai",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 13
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1297344",
-              "name": "Olofsson, Jacob",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 13
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2757157",
-              "name": "Eklund, Victor",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 13
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 25,
-          "players": [
             {
               "id": "sr:player:1004633",
               "name": "Burgess, Todd",
@@ -1475,374 +1835,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 12
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1124141",
-              "name": "Martin, Max",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 12
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1213492",
-              "name": "Pooley, Scott",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 12
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1492118",
-              "name": "Westlund, Gustaf",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 12
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2105358",
-              "name": "Dower Nilsson, Liam",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 12
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2348251",
-              "name": "Polin, Egor",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 12
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 31,
-          "players": [
-            {
-              "id": "sr:player:89277",
-              "name": "Karlsson, Jakob",
-              "competitors": [
-                {
-                  "id": "sr:competitor:49572",
-                  "name": "Vimmerby HC",
-                  "abbreviation": "VIM",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:89348",
-              "name": "Persson, Johan",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:145644",
-              "name": "Komarek, Konstantin",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:379812",
-              "name": "Pitkanen, Miikka",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:983619",
-              "name": "Fortier, Maxime",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1064132",
-              "name": "Jansson, Christoffer",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1497327",
-              "name": "Theocharidis, Timmy",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1887864",
-              "name": "Levin, Eddie",
-              "competitors": [
-                {
-                  "id": "sr:competitor:49572",
-                  "name": "Vimmerby HC",
-                  "abbreviation": "VIM",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2258655",
-              "name": "Levinsson, Ludvig",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2534375",
-              "name": "Bjork, Christoffer",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2861839",
-              "name": "Bradford, Erik",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 11
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 42,
-          "players": [
-            {
-              "id": "sr:player:30079",
-              "name": "Klasen, Linus",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 10
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:31893",
-              "name": "Thoresen, Patrick",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 10
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:601888",
-              "name": "Rosdahl, Kim",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 10
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:894966",
-              "name": "Norbe, Daniel",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 10
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:983755",
-              "name": "Sissons, Colby",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 10
+                      "value": 13
                     }
                   ]
                 }
@@ -1859,7 +1852,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 10
+                      "value": 13
                     }
                   ]
                 }
@@ -1876,7 +1869,97 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 10
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1497327",
+              "name": "Theocharidis, Timmy",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1595474",
+              "name": "Joyaux, Michael",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2861839",
+              "name": "Bradford, Erik",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 47,
+          "players": [
+            {
+              "id": "sr:player:145644",
+              "name": "Komarek, Konstantin",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:179061",
+              "name": "Weigel, Fredric",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 12
                     }
                   ]
                 }
@@ -1893,41 +1976,24 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 10
+                      "value": 12
                     }
                   ]
                 }
               ]
             },
             {
-              "id": "sr:player:1953060",
-              "name": "Magnusson, Oskar",
+              "id": "sr:player:2142266",
+              "name": "Plato, Hampus",
               "competitors": [
                 {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 10
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2278801",
-              "name": "Johansson, Valdemar",
-              "competitors": [
-                {
-                  "id": "sr:competitor:419635",
-                  "name": "Kalmar HC",
-                  "abbreviation": "KAL",
-                  "datapoints": [
-                    {
-                      "type": "points",
-                      "value": 10
+                      "value": 12
                     }
                   ]
                 }
@@ -1944,7 +2010,7 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 10
+                      "value": 12
                     }
                   ]
                 }
@@ -1961,7 +2027,24 @@
                   "datapoints": [
                     {
                       "type": "points",
-                      "value": 10
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2534375",
+              "name": "Bjork, Christoffer",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "points",
+                      "value": 12
                     }
                   ]
                 }
@@ -1988,7 +2071,7 @@
                   "datapoints": [
                     {
                       "type": "assists",
-                      "value": 15
+                      "value": 19
                     }
                   ]
                 }
@@ -2010,7 +2093,46 @@
                   "datapoints": [
                     {
                       "type": "assists",
-                      "value": 14
+                      "value": 17
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "players": [
+            {
+              "id": "sr:player:132250",
+              "name": "Nilsson, Marcus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:263669",
+              "name": "Larsson, Henrik",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 15
                     }
                   ]
                 }
@@ -2027,6 +2149,62 @@
                   "datapoints": [
                     {
                       "type": "assists",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1967337",
+              "name": "Nybeck, Zion",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "players": [
+            {
+              "id": "sr:player:132743",
+              "name": "Bengtsson, Rasmus",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1212998",
+              "name": "Stevens, Nolan",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
                       "value": 14
                     }
                   ]
@@ -2036,11 +2214,101 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 9,
           "players": [
             {
-              "id": "sr:player:132250",
-              "name": "Nilsson, Marcus",
+              "id": "sr:player:983755",
+              "name": "Sissons, Colby",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:986429",
+              "name": "Meyer, Nikolai",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1124141",
+              "name": "Martin, Max",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2271501",
+              "name": "Johnsen, Martin",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "players": [
+            {
+              "id": "sr:player:89277",
+              "name": "Karlsson, Jakob",
+              "competitors": [
+                {
+                  "id": "sr:competitor:49572",
+                  "name": "Vimmerby HC",
+                  "abbreviation": "VIM",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:894918",
+              "name": "Forsberg, Fredrik",
               "competitors": [
                 {
                   "id": "sr:competitor:3747",
@@ -2056,13 +2324,13 @@
               ]
             },
             {
-              "id": "sr:player:132743",
-              "name": "Bengtsson, Rasmus",
+              "id": "sr:player:1064132",
+              "name": "Jansson, Christoffer",
               "competitors": [
                 {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2073,13 +2341,30 @@
               ]
             },
             {
-              "id": "sr:player:263669",
-              "name": "Larsson, Henrik",
+              "id": "sr:player:1279040",
+              "name": "Maione, Mathew",
               "competitors": [
                 {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1297344",
+              "name": "Olofsson, Jacob",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2107,8 +2392,8 @@
               ]
             },
             {
-              "id": "sr:player:1967337",
-              "name": "Nybeck, Zion",
+              "id": "sr:player:1497857",
+              "name": "Walker, Nolan",
               "competitors": [
                 {
                   "id": "sr:competitor:3762",
@@ -2122,15 +2407,32 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "sr:player:2862147",
+              "name": "Souch, Carter",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "rank": 9,
+          "rank": 21,
           "players": [
             {
-              "id": "sr:player:1297344",
-              "name": "Olofsson, Jacob",
+              "id": "sr:player:203578",
+              "name": "Possler, Gustav",
               "competitors": [
                 {
                   "id": "sr:competitor:3747",
@@ -2146,13 +2448,30 @@
               ]
             },
             {
-              "id": "sr:player:2271501",
-              "name": "Johnsen, Martin",
+              "id": "sr:player:1215080",
+              "name": "Liljegren, Viktor",
               "competitors": [
                 {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 11
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1216008",
+              "name": "Hayhurst, Jacob",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2165,16 +2484,16 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 24,
           "players": [
             {
-              "id": "sr:player:894918",
-              "name": "Forsberg, Fredrik",
+              "id": "sr:player:31893",
+              "name": "Thoresen, Patrick",
               "competitors": [
                 {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2185,13 +2504,13 @@
               ]
             },
             {
-              "id": "sr:player:1124141",
-              "name": "Martin, Max",
+              "id": "sr:player:179061",
+              "name": "Weigel, Fredric",
               "competitors": [
                 {
-                  "id": "sr:competitor:3757",
-                  "name": "Mora IK",
-                  "abbreviation": "MOR",
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2202,8 +2521,8 @@
               ]
             },
             {
-              "id": "sr:player:1212998",
-              "name": "Stevens, Nolan",
+              "id": "sr:player:894966",
+              "name": "Norbe, Daniel",
               "competitors": [
                 {
                   "id": "sr:competitor:3735",
@@ -2217,11 +2536,62 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "sr:player:983619",
+              "name": "Fortier, Maxime",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2534375",
+              "name": "Bjork, Christoffer",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2793589",
+              "name": "Fransen, Noel",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 10
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "rank": 14,
+          "rank": 30,
           "players": [
             {
               "id": "sr:player:30079",
@@ -2231,23 +2601,6 @@
                   "id": "sr:competitor:3733",
                   "name": "Djurgårdens IF",
                   "abbreviation": "DIF",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 9
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:89277",
-              "name": "Karlsson, Jakob",
-              "competitors": [
-                {
-                  "id": "sr:competitor:49572",
-                  "name": "Vimmerby HC",
-                  "abbreviation": "VIM",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2275,13 +2628,13 @@
               ]
             },
             {
-              "id": "sr:player:986429",
-              "name": "Meyer, Nikolai",
+              "id": "sr:player:1043451",
+              "name": "Åkerström, Simon",
               "competitors": [
                 {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
+                  "id": "sr:competitor:3738",
+                  "name": "AIK IF",
+                  "abbreviation": "AIK",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2292,13 +2645,13 @@
               ]
             },
             {
-              "id": "sr:player:1215080",
-              "name": "Liljegren, Viktor",
+              "id": "sr:player:1280688",
+              "name": "Cosgrove, Trevor",
               "competitors": [
                 {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
+                  "id": "sr:competitor:419635",
+                  "name": "Kalmar HC",
+                  "abbreviation": "KAL",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2309,13 +2662,13 @@
               ]
             },
             {
-              "id": "sr:player:1216008",
-              "name": "Hayhurst, Jacob",
+              "id": "sr:player:1295394",
+              "name": "Eriksson, William",
               "competitors": [
                 {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
+                  "id": "sr:competitor:5612",
+                  "name": "Almtuna IS",
+                  "abbreviation": "ALM",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2326,13 +2679,13 @@
               ]
             },
             {
-              "id": "sr:player:1497857",
-              "name": "Walker, Nolan",
+              "id": "sr:player:2105358",
+              "name": "Dower Nilsson, Liam",
               "competitors": [
                 {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2360,30 +2713,13 @@
               ]
             },
             {
-              "id": "sr:player:2534375",
-              "name": "Bjork, Christoffer",
+              "id": "sr:player:2861839",
+              "name": "Bradford, Erik",
               "competitors": [
                 {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 9
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2862147",
-              "name": "Souch, Carter",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2396,11 +2732,11 @@
           ]
         },
         {
-          "rank": 24,
+          "rank": 38,
           "players": [
             {
-              "id": "sr:player:203578",
-              "name": "Possler, Gustav",
+              "id": "sr:player:313030",
+              "name": "Nørstebø, Mattias Alfer",
               "competitors": [
                 {
                   "id": "sr:competitor:3747",
@@ -2416,13 +2752,13 @@
               ]
             },
             {
-              "id": "sr:player:983755",
-              "name": "Sissons, Colby",
+              "id": "sr:player:379812",
+              "name": "Pitkanen, Miikka",
               "competitors": [
                 {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2433,8 +2769,76 @@
               ]
             },
             {
-              "id": "sr:player:1043451",
-              "name": "Åkerström, Simon",
+              "id": "sr:player:601888",
+              "name": "Rosdahl, Kim",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:894978",
+              "name": "Flood, Eric",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3752",
+                  "name": "Västerås IK",
+                  "abbreviation": "VIK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1113887",
+              "name": "Grahn, Viktor",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1144868",
+              "name": "Hawel, Liam",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1213492",
+              "name": "Pooley, Scott",
               "competitors": [
                 {
                   "id": "sr:competitor:3738",
@@ -2450,42 +2854,8 @@
               ]
             },
             {
-              "id": "sr:player:1280688",
-              "name": "Cosgrove, Trevor",
-              "competitors": [
-                {
-                  "id": "sr:competitor:419635",
-                  "name": "Kalmar HC",
-                  "abbreviation": "KAL",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 8
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1295394",
-              "name": "Eriksson, William",
-              "competitors": [
-                {
-                  "id": "sr:competitor:5612",
-                  "name": "Almtuna IS",
-                  "abbreviation": "ALM",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 8
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2861839",
-              "name": "Bradford, Erik",
+              "id": "sr:player:1595474",
+              "name": "Joyaux, Michael",
               "competitors": [
                 {
                   "id": "sr:competitor:3762",
@@ -2499,29 +2869,80 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "rank": 30,
-          "players": [
+            },
             {
-              "id": "sr:player:31893",
-              "name": "Thoresen, Patrick",
+              "id": "sr:player:2142266",
+              "name": "Plato, Hampus",
               "competitors": [
                 {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
+                  "id": "sr:competitor:3751",
+                  "name": "BIK Karlskoga",
+                  "abbreviation": "BIK",
                   "datapoints": [
                     {
                       "type": "assists",
-                      "value": 7
+                      "value": 8
                     }
                   ]
                 }
               ]
             },
+            {
+              "id": "sr:player:2191492",
+              "name": "Gabrielson, Hugo",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3754",
+                  "name": "Nybro Vikings IF",
+                  "abbreviation": "NYB",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2257321",
+              "name": "Holm, Kalle",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3754",
+                  "name": "Nybro Vikings IF",
+                  "abbreviation": "NYB",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2384261",
+              "name": "Vesterheim, Petter",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3757",
+                  "name": "Mora IK",
+                  "abbreviation": "MOR",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 8
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rank": 50,
+          "players": [
             {
               "id": "sr:player:46698",
               "name": "Krüger, Marcus",
@@ -2540,13 +2961,13 @@
               ]
             },
             {
-              "id": "sr:player:179061",
-              "name": "Weigel, Fredric",
+              "id": "sr:player:132244",
+              "name": "Nilsson, Henrik",
               "competitors": [
                 {
-                  "id": "sr:competitor:3733",
-                  "name": "Djurgårdens IF",
-                  "abbreviation": "DIF",
+                  "id": "sr:competitor:419635",
+                  "name": "Kalmar HC",
+                  "abbreviation": "KAL",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2557,8 +2978,8 @@
               ]
             },
             {
-              "id": "sr:player:313030",
-              "name": "Nørstebø, Mattias Alfer",
+              "id": "sr:player:189619",
+              "name": "Mustonen, Joel",
               "competitors": [
                 {
                   "id": "sr:competitor:3747",
@@ -2574,13 +2995,13 @@
               ]
             },
             {
-              "id": "sr:player:601888",
-              "name": "Rosdahl, Kim",
+              "id": "sr:player:600940",
+              "name": "Ottosson, Axel",
               "competitors": [
                 {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
+                  "id": "sr:competitor:3747",
+                  "name": "IF Björklöven",
+                  "abbreviation": "BJÖ",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2597,7 +3018,24 @@
                 {
                   "id": "sr:competitor:3819",
                   "name": "Östersunds IK",
-                  "abbreviation": "OIK",
+                  "abbreviation": "ÖIK",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:815898",
+              "name": "Engsund, Filiph",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3735",
+                  "name": "Södertälje SK",
+                  "abbreviation": "SSK",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2625,23 +3063,6 @@
               ]
             },
             {
-              "id": "sr:player:983619",
-              "name": "Fortier, Maxime",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 7
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "sr:player:1004633",
               "name": "Burgess, Todd",
               "competitors": [
@@ -2649,40 +3070,6 @@
                   "id": "sr:competitor:3757",
                   "name": "Mora IK",
                   "abbreviation": "MOR",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 7
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1064132",
-              "name": "Jansson, Christoffer",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 7
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1213492",
-              "name": "Pooley, Scott",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3738",
-                  "name": "AIK IF",
-                  "abbreviation": "AIK",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2710,13 +3097,13 @@
               ]
             },
             {
-              "id": "sr:player:1279040",
-              "name": "Maione, Mathew",
+              "id": "sr:player:1294590",
+              "name": "Ragnarsson, Jacob",
               "competitors": [
                 {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2744,13 +3131,81 @@
               ]
             },
             {
-              "id": "sr:player:2105358",
-              "name": "Dower Nilsson, Liam",
+              "id": "sr:player:1492098",
+              "name": "Blixt, Hugo",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1492118",
+              "name": "Westlund, Gustaf",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3762",
+                  "name": "IK Oskarshamn",
+                  "abbreviation": "IKO",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1497327",
+              "name": "Theocharidis, Timmy",
               "competitors": [
                 {
                   "id": "sr:competitor:3747",
                   "name": "IF Björklöven",
                   "abbreviation": "BJÖ",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:1599308",
+              "name": "Fransson, William",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3804",
+                  "name": "Tingsryds AIF",
+                  "abbreviation": "TIN",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sr:player:2275961",
+              "name": "Udd, Albin",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3754",
+                  "name": "Nybro Vikings IF",
+                  "abbreviation": "NYB",
                   "datapoints": [
                     {
                       "type": "assists",
@@ -2778,6 +3233,23 @@
               ]
             },
             {
+              "id": "sr:player:2458663",
+              "name": "Ciernik, Alex",
+              "competitors": [
+                {
+                  "id": "sr:competitor:3754",
+                  "name": "Nybro Vikings IF",
+                  "abbreviation": "NYB",
+                  "datapoints": [
+                    {
+                      "type": "assists",
+                      "value": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "sr:player:2624817",
               "name": "Pistek, Theodor",
               "competitors": [
@@ -2795,277 +3267,17 @@
               ]
             },
             {
-              "id": "sr:player:2793589",
-              "name": "Fransen, Noel",
+              "id": "sr:player:2757157",
+              "name": "Eklund, Victor",
               "competitors": [
                 {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
+                  "id": "sr:competitor:3733",
+                  "name": "Djurgårdens IF",
+                  "abbreviation": "DIF",
                   "datapoints": [
                     {
                       "type": "assists",
                       "value": 7
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rank": 48,
-          "players": [
-            {
-              "id": "sr:player:145644",
-              "name": "Komarek, Konstantin",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:379812",
-              "name": "Pitkanen, Miikka",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:600940",
-              "name": "Ottosson, Axel",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3747",
-                  "name": "IF Björklöven",
-                  "abbreviation": "BJÖ",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:894966",
-              "name": "Norbe, Daniel",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:894978",
-              "name": "Flood, Eric",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1050369",
-              "name": "Lerby, Carl-Johan",
-              "competitors": [
-                {
-                  "id": "sr:competitor:419635",
-                  "name": "Kalmar HC",
-                  "abbreviation": "KAL",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1113887",
-              "name": "Grahn, Viktor",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3735",
-                  "name": "Södertälje SK",
-                  "abbreviation": "SSK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1299320",
-              "name": "Weinger, Evan",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1492118",
-              "name": "Westlund, Gustaf",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1595474",
-              "name": "Joyaux, Michael",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3762",
-                  "name": "IK Oskarshamn",
-                  "abbreviation": "IKO",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:1968371",
-              "name": "Lyckåsen, Albert",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3752",
-                  "name": "Västerås IK",
-                  "abbreviation": "VIK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2142266",
-              "name": "Plato, Hampus",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3751",
-                  "name": "BIK Karlskoga",
-                  "abbreviation": "BIK",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2338983",
-              "name": "Lundgren, Jonatan",
-              "competitors": [
-                {
-                  "id": "sr:competitor:5612",
-                  "name": "Almtuna IS",
-                  "abbreviation": "ALM",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2412283",
-              "name": "Bergstrom, Arvid",
-              "competitors": [
-                {
-                  "id": "sr:competitor:5612",
-                  "name": "Almtuna IS",
-                  "abbreviation": "ALM",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sr:player:2458663",
-              "name": "Ciernik, Alex",
-              "competitors": [
-                {
-                  "id": "sr:competitor:3754",
-                  "name": "Nybro Vikings IF",
-                  "abbreviation": "NYB",
-                  "datapoints": [
-                    {
-                      "type": "assists",
-                      "value": 6
                     }
                   ]
                 }

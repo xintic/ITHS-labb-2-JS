@@ -1,5 +1,5 @@
 {
-  "generated_at": "2024-11-07T20:13:23+00:00",
+  "generated_at": "2024-11-21T14:11:47+00:00",
   "summaries": [
     {
       "sport_event": {
@@ -304,7 +304,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -1128,7 +1128,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -1684,7 +1684,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -3059,7 +3059,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -3292,7 +3292,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -4199,7 +4199,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -5465,7 +5465,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -6282,7 +6282,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -6508,7 +6508,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -6951,7 +6951,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -8222,7 +8222,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -8335,7 +8335,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -8439,7 +8439,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -9470,7 +9470,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -10414,7 +10414,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -10977,7 +10977,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -12366,8 +12366,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 3,
+        "away_score": 0,
+        "winner_id": "sr:competitor:3747",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -12444,7 +12467,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -12456,8 +12479,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 1,
+        "winner_id": "sr:competitor:3735",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 4,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -12546,8 +12592,43 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ap",
+        "home_score": 2,
+        "away_score": 3,
+        "home_normaltime_score": 2,
+        "away_normaltime_score": 2,
+        "winner_id": "sr:competitor:3747",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "overtime"
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "penalties"
+          }
+        ]
       }
     },
     {
@@ -12636,8 +12717,43 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ap",
+        "home_score": 3,
+        "away_score": 4,
+        "home_normaltime_score": 3,
+        "away_normaltime_score": 3,
+        "winner_id": "sr:competitor:5612",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "overtime"
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "penalties"
+          }
+        ]
       }
     },
     {
@@ -12726,8 +12842,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 6,
+        "away_score": 2,
+        "winner_id": "sr:competitor:3751",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 5,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -12816,8 +12955,43 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ap",
+        "home_score": 6,
+        "away_score": 5,
+        "home_normaltime_score": 5,
+        "away_normaltime_score": 5,
+        "winner_id": "sr:competitor:3738",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 3,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "overtime"
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "penalties"
+          }
+        ]
       }
     },
     {
@@ -12906,8 +13080,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 2,
+        "away_score": 5,
+        "winner_id": "sr:competitor:3804",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 3,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -12996,8 +13193,38 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "aet",
+        "home_score": 3,
+        "away_score": 4,
+        "home_normaltime_score": 3,
+        "away_normaltime_score": 3,
+        "winner_id": "sr:competitor:3733",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "overtime"
+          }
+        ]
       }
     },
     {
@@ -13086,8 +13313,38 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "aet",
+        "home_score": 2,
+        "away_score": 3,
+        "home_normaltime_score": 2,
+        "away_normaltime_score": 2,
+        "winner_id": "sr:competitor:3757",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "overtime"
+          }
+        ]
       }
     },
     {
@@ -13176,8 +13433,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 3,
+        "winner_id": "sr:competitor:3747",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 3,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13266,8 +13546,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 3,
+        "winner_id": "sr:competitor:3733",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 3,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13356,8 +13659,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 5,
+        "away_score": 2,
+        "winner_id": "sr:competitor:3735",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13434,7 +13760,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -13446,8 +13772,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 0,
+        "winner_id": "sr:competitor:3754",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13536,8 +13885,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 0,
+        "away_score": 2,
+        "winner_id": "sr:competitor:3752",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13626,8 +13998,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 0,
+        "away_score": 3,
+        "winner_id": "sr:competitor:3751",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13704,7 +14099,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -13716,8 +14111,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 5,
+        "away_score": 1,
+        "winner_id": "sr:competitor:3751",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 4,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13806,8 +14224,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 7,
+        "away_score": 2,
+        "winner_id": "sr:competitor:3762",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 3,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13896,8 +14337,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 5,
+        "winner_id": "sr:competitor:3735",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -13986,8 +14450,43 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ap",
+        "home_score": 3,
+        "away_score": 2,
+        "home_normaltime_score": 2,
+        "away_normaltime_score": 2,
+        "winner_id": "sr:competitor:3738",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "overtime"
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "penalties"
+          }
+        ]
       }
     },
     {
@@ -14076,8 +14575,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 2,
+        "winner_id": "sr:competitor:3752",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 2,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14166,8 +14688,38 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "aet",
+        "home_score": 3,
+        "away_score": 2,
+        "home_normaltime_score": 2,
+        "away_normaltime_score": 2,
+        "winner_id": "sr:competitor:3757",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "overtime"
+          }
+        ]
       }
     },
     {
@@ -14256,8 +14808,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 4,
+        "away_score": 2,
+        "winner_id": "sr:competitor:419635",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14346,8 +14921,38 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "aet",
+        "home_score": 1,
+        "away_score": 0,
+        "home_normaltime_score": 0,
+        "away_normaltime_score": 0,
+        "winner_id": "sr:competitor:3762",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          },
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "overtime"
+          }
+        ]
       }
     },
     {
@@ -14415,7 +15020,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -14436,8 +15041,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 3,
+        "away_score": 5,
+        "winner_id": "sr:competitor:3747",
+        "period_scores": [
+          {
+            "home_score": 0,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14526,8 +15154,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 6,
+        "away_score": 1,
+        "winner_id": "sr:competitor:3751",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 3,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14616,8 +15267,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 6,
+        "away_score": 1,
+        "winner_id": "sr:competitor:3735",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 4,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14706,8 +15380,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 5,
+        "away_score": 1,
+        "winner_id": "sr:competitor:3733",
+        "period_scores": [
+          {
+            "home_score": 2,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 3,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14796,8 +15493,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 1,
+        "away_score": 3,
+        "winner_id": "sr:competitor:3757",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 2,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 0,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14886,8 +15606,31 @@
         }
       },
       "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 2,
+        "away_score": 4,
+        "winner_id": "sr:competitor:419635",
+        "period_scores": [
+          {
+            "home_score": 1,
+            "away_score": 1,
+            "type": "regular_period",
+            "number": 1
+          },
+          {
+            "home_score": 0,
+            "away_score": 0,
+            "type": "regular_period",
+            "number": 2
+          },
+          {
+            "home_score": 1,
+            "away_score": 3,
+            "type": "regular_period",
+            "number": 3
+          }
+        ]
       }
     },
     {
@@ -14964,7 +15707,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -15765,7 +16508,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -16395,7 +17138,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -16782,6 +17525,96 @@
     },
     {
       "sport_event": {
+        "id": "sr:sport_event:50412745",
+        "start_time": "2024-12-01T15:30:00+00:00",
+        "start_time_confirmed": true,
+        "sport_event_context": {
+          "sport": {
+            "id": "sr:sport:4",
+            "name": "Ishockey"
+          },
+          "category": {
+            "id": "sr:category:39",
+            "name": "Sverige",
+            "country_code": "SWE"
+          },
+          "competition": {
+            "id": "sr:competition:416",
+            "name": "Hockey allsvenskan",
+            "gender": "men"
+          },
+          "season": {
+            "id": "sr:season:119025",
+            "name": "Hockey allsvenskan 24/25",
+            "start_date": "2024-09-20",
+            "end_date": "2025-04-30",
+            "year": "24/25",
+            "competition_id": "sr:competition:416"
+          },
+          "stage": {
+            "order": 1,
+            "type": "league",
+            "phase": "regular season",
+            "start_date": "2024-09-20",
+            "end_date": "2025-03-07",
+            "year": "24/25"
+          },
+          "round": {
+            "number": 23
+          },
+          "groups": [
+            {
+              "id": "sr:league:83539",
+              "name": "HockeyAllsvenskan 24/25"
+            }
+          ]
+        },
+        "coverage": {
+          "type": "sport_event",
+          "sport_event_properties": {
+            "basic_play_by_play": true,
+            "basic_player_stats": true,
+            "basic_team_stats": false,
+            "deeper_player_stats": false,
+            "deeper_team_stats": false,
+            "goal_scorers": true,
+            "lineups": false,
+            "scores": "live"
+          }
+        },
+        "competitors": [
+          {
+            "id": "sr:competitor:3804",
+            "name": "Tingsryds AIF",
+            "country": "Sverige",
+            "country_code": "SWE",
+            "abbreviation": "TIN",
+            "qualifier": "home",
+            "gender": "male"
+          },
+          {
+            "id": "sr:competitor:3754",
+            "name": "Nybro Vikings IF",
+            "country": "Sverige",
+            "country_code": "SWE",
+            "abbreviation": "NYB",
+            "qualifier": "away",
+            "gender": "male"
+          }
+        ],
+        "sport_event_conditions": {
+          "ground": {
+            "neutral": false
+          }
+        }
+      },
+      "sport_event_status": {
+        "status": "not_started",
+        "match_status": "not_started"
+      }
+    },
+    {
+      "sport_event": {
         "id": "sr:sport_event:50412733",
         "start_time": "2024-12-03T18:00:00+00:00",
         "start_time_confirmed": true,
@@ -16854,7 +17687,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -17322,96 +18155,6 @@
     },
     {
       "sport_event": {
-        "id": "sr:sport_event:50412745",
-        "start_time": "2024-12-04T18:00:00+00:00",
-        "start_time_confirmed": true,
-        "sport_event_context": {
-          "sport": {
-            "id": "sr:sport:4",
-            "name": "Ishockey"
-          },
-          "category": {
-            "id": "sr:category:39",
-            "name": "Sverige",
-            "country_code": "SWE"
-          },
-          "competition": {
-            "id": "sr:competition:416",
-            "name": "Hockey allsvenskan",
-            "gender": "men"
-          },
-          "season": {
-            "id": "sr:season:119025",
-            "name": "Hockey allsvenskan 24/25",
-            "start_date": "2024-09-20",
-            "end_date": "2025-04-30",
-            "year": "24/25",
-            "competition_id": "sr:competition:416"
-          },
-          "stage": {
-            "order": 1,
-            "type": "league",
-            "phase": "regular season",
-            "start_date": "2024-09-20",
-            "end_date": "2025-03-07",
-            "year": "24/25"
-          },
-          "round": {
-            "number": 23
-          },
-          "groups": [
-            {
-              "id": "sr:league:83539",
-              "name": "HockeyAllsvenskan 24/25"
-            }
-          ]
-        },
-        "coverage": {
-          "type": "sport_event",
-          "sport_event_properties": {
-            "basic_play_by_play": true,
-            "basic_player_stats": true,
-            "basic_team_stats": false,
-            "deeper_player_stats": false,
-            "deeper_team_stats": false,
-            "goal_scorers": true,
-            "lineups": false,
-            "scores": "live"
-          }
-        },
-        "competitors": [
-          {
-            "id": "sr:competitor:3804",
-            "name": "Tingsryds AIF",
-            "country": "Sverige",
-            "country_code": "SWE",
-            "abbreviation": "TIN",
-            "qualifier": "home",
-            "gender": "male"
-          },
-          {
-            "id": "sr:competitor:3754",
-            "name": "Nybro Vikings IF",
-            "country": "Sverige",
-            "country_code": "SWE",
-            "abbreviation": "NYB",
-            "qualifier": "away",
-            "gender": "male"
-          }
-        ],
-        "sport_event_conditions": {
-          "ground": {
-            "neutral": false
-          }
-        }
-      },
-      "sport_event_status": {
-        "status": "not_started",
-        "match_status": "not_started"
-      }
-    },
-    {
-      "sport_event": {
         "id": "sr:sport_event:50412747",
         "start_time": "2024-12-06T18:00:00+00:00",
         "start_time_confirmed": true,
@@ -17475,7 +18218,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -18645,7 +19388,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -19365,7 +20108,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -20355,7 +21098,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -20814,7 +21557,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -21435,7 +22178,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -21894,7 +22637,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -22704,7 +23447,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -23055,7 +23798,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -23775,7 +24518,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -24414,7 +25157,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -24855,7 +25598,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -25485,7 +26228,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -26574,7 +27317,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -27114,7 +27857,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -27645,7 +28388,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -28644,7 +29387,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -28995,7 +29738,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -29364,7 +30107,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -29985,7 +30728,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -30804,7 +31547,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -31335,7 +32078,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -32424,7 +33167,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -32874,7 +33617,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -33045,7 +33788,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -34224,7 +34967,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "away",
             "gender": "male"
           }
@@ -34485,7 +35228,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
@@ -34935,7 +35678,7 @@
             "name": "Östersunds IK",
             "country": "Sverige",
             "country_code": "SWE",
-            "abbreviation": "OIK",
+            "abbreviation": "ÖIK",
             "qualifier": "home",
             "gender": "male"
           },
